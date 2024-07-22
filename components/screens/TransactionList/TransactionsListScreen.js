@@ -16,8 +16,8 @@ const TransactionsListScreen = ({ navigation, transactions }) => {
             onPress={() => navigation.navigate('TransactionDetail', { transaction: item })}
           >
             <View style={styles.list}>
-              <Text style={styles.itemText}>{item.name}</Text>
-              <Text style={styles.itemText}>{`$${item.amount.toFixed(2)}`}</Text>
+              <Text style={styles.itemTextName}>{item.name}</Text>
+              <Text style={styles.itemTextAmount}>{`$${item.amount.toFixed(2)}`}</Text>
             </View>
             <Icon style={{ paddingLeft: 10 }} name="chevron-forward" size={20} />
           </TouchableOpacity>

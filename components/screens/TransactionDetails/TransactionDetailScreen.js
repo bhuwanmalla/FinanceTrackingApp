@@ -2,7 +2,6 @@ import React from 'react';
 import { View, Text } from 'react-native';
 import styles from './DetailsStyles';
 
-
 const TransactionDetailScreen = ({ route }) => {
   const { transaction } = route.params;
   return (
@@ -13,7 +12,7 @@ const TransactionDetailScreen = ({ route }) => {
         <Text style={styles.location}>North York, ON</Text>
       </View>
       <View style={styles.details}>
-        <Text style={styles.detailLabel}>Transaction Date</Text>
+        <Text style={styles.detailDate}>Transaction Date</Text>
         <Text style={styles.detailValue}>{transaction.date}</Text>
       </View>
     </View>

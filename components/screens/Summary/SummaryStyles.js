@@ -15,17 +15,17 @@ const styles = StyleSheet.create({
       marginTop: 10,
       fontSize: 16,
     },
-    highSpendingLabel: {
+    highExpenseLabel: {
       fontSize: 16,
       marginTop: 10,
       fontWeight: 'bold',
-      color: '#4169E1',
+      color: '#FF4C4C',
     },
-    lowSpendingLabel: {
+    lowExpenseLabel: {
       fontSize: 16,
       marginTop: 10,
       fontWeight: 'bold',
-      color: '#4169E1',
+      color: '#41B06E',
     },
     value: {
       marginTop: 10,

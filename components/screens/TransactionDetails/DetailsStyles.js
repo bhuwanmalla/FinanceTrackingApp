@@ -7,35 +7,40 @@ const styles = StyleSheet.create({
       backgroundColor: 'white',
     },
     header: {
-      backgroundColor: 'grey',
+      backgroundColor: '#686D76',
       padding: 20,
       alignItems: 'center',
     },
     amount: {
-      fontSize: 32,
+      fontSize: 30,
       fontWeight: 'bold',
-      color: 'white',
+      color: '#ffffff',
     },
     name: {
       fontSize: 20,
-      color: 'white',
+      color: '#ffffff'
     },
     location: {
-      fontSize: 16,
-      color: 'white',
+      fontSize: 20,
+      fontWeight: 'bold',
+      color: '#41B06E',
     },
     details: {
+      marginVertical: 20,
+      paddingHorizontal: 20,
+      borderBottomWidth: 0.5,
       flexDirection: 'row',
       justifyContent: 'space-between',
     },
-    detailLabel: {
+    detailDate: {
       fontSize: 16,
-      color: 'black',
+      color: '#000000',
       padding: 10
     },
     detailValue: {
       fontSize: 16,
-      padding: 10
+      padding: 10,
+      color: '#FF4C4C'
     },
   });
 
